@@ -22,3 +22,16 @@ CSS_SELECTOR:
     p:first-child
     p:last-child
     p:nth-child(2)
+
+
+XPATH:
+/html/body/table/tr/th #path to specific tag
+//table/tr/th #relative path start search from tag table
+//th[text()='example'] #good practice. search in html with specific text
+//input[@name='example']
+
+XPATCH - (By.XPATH, "example")
+(By.XPATH, "//button[@id='Click On Me']")
+
+
+
