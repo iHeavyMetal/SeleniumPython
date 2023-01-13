@@ -12,6 +12,7 @@ driver.find_element(By.ID, "accept-choices").click()
 
 
 tutorial_element = driver.find_element(By.ID, "navbtn_references")
-webdriver.ActionChains(driver).move_to_element(tutorial_element).perform()
+
+webdriver.ActionChains(driver).move_to_element(tutorial_element).click(tutorial_element).perform()
 
 time.sleep(3)
