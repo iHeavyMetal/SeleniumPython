@@ -1,6 +1,6 @@
 import pytest
 
-def test_method():
+def test_method_2():
     x=5
     y=2
     assert x+y==7, "Assertion failed. Expected 7"
