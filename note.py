@@ -9,6 +9,9 @@ LINK_TEXT - (By.LINK_TEXT, "example") #in <a href> tag
 PARTIAL_LINK_TEXT - (By.PARTIAL_LINK_TEXT, "example")
 CLASS_NAME - (By.CLASS_NAME, "example") #class="example1 example2" - can search by example1 or example2
 TAG_NAME - (By.TAG_NAME, "example") # "a", "p", "img", "div", "label"
+XPATCH - (By.XPATH, "example")
+XPATCH - (By.XPATH, "//button[@id='Click On Me']")
+
 
 CSS_SELECTOR:
     a
@@ -30,8 +33,7 @@ XPATH:
 //th[text()='example'] #good practice. search in html with specific text
 //input[@name='example']
 
-XPATCH - (By.XPATH, "example")
-(By.XPATH, "//button[@id='Click On Me']")
+
 
 
 
