@@ -1,3 +1,5 @@
+#for error "pytest: error: unrecognized arguments: --alluredir=C:\... "  need to install: pip install allure-pytest
+
 import time
 
 from selenium import webdriver
